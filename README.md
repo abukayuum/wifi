@@ -1,23 +1,24 @@
 ## Wifi_Hack
-### Hack WIfi Using Termux! (Requires Root)
+## Hack WIfi Using Termux! (Requires Root)
 
 <p align="center"><img src="https://i.ibb.co/K74g0SC/hulu.jpg"></p>
 
-### Installation :
+## Installation :
 
 ```bash
 $ apt update && apt upgrade
 $ pkg install -y root-repo
 $ pkg install -y git tsu python wpa-supplicant pixiewps iw
-$ git clone https://github.com/Mahfuz-THBD/Wifi_Hack
+$ git clone https://github.com/abukayuum/wifi
 $ cd Wifi_Hack
 $ chmod +x birihack.py
 $ sudo python birihack.py --help
 ```
 
-#### Example : `sudo python birihack.py -i wlan0 -K`
+## Help : python3 birihack.py --help
+## Example : `sudo python birihack.py -i wlan0 -K`
 
-#### Note: 
+## Note: 
 **First turn off your Wifi.**
 - Show avaliable networks and start Pixie Dust attack on a specified network.
 - `sudo python birihack.py -i wlan0 -K`
