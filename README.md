@@ -15,7 +15,7 @@ $ chmod +x birihack.py
 $ sudo python birihack.py --help
 ```
 
-## Help : python3 birihack.py --help
+## Help : `python3 birihack.py --help`
 ## Example : `sudo python birihack.py -i wlan0 -K`
 
 ## Note: 
