@@ -18,11 +18,10 @@ import csv
 from typing import Dict
 
 print('''
-\033[1;92m Recoded By THBD
-BiRi_B@B@
-Telegram:https://t.me/termux_hacker_bd
-One line Command:\nsudo python Wifi_Hack/birihack.py -i wlan0 -K\n
-For Help Type:\npython Wifi_Hack/birihack.py --help\033[0m
+\033[1;92m Recoded By Tamzid
+Github : abukayuum
+One line Command :\nsudo python3 Wifi_Hack/birihack.py -i wlan0 -K\n
+For Help Type :\npython3 Wifi_Hack/birihack.py --help\033[0m
 ''')
 class NetworkAddress:
     def __init__(self, mac):
@@ -1002,9 +1001,13 @@ class WiFiScanner:
             return
         while 1:
             try:
-                networkNo = input('Select target (press Enter to refresh): ')
+                print('Press enter to refresh')
+                print('Write stop or exit for closing')
+                networkNo = input('Select target: ')
                 if networkNo.lower() in ('r', '0', ''):
                     return self.prompt_network()
+                elif networkNo in ('stop', 'exit'):
+                    sys.exit('Exit')
                 elif int(networkNo) in networks.keys():
                     return networks[int(networkNo)]['BSSID']
                 else:
