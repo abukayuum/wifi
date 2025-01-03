@@ -16,7 +16,7 @@ $ sudo python birihack.py --help
 ```
 
 ## Help : `python3 birihack.py --help`
-## Example : `sudo python birihack.py -i wlan0 -K`
+## Example : `sudo python3 birihack.py -i wlan0 -K`
 
 ## Note: 
 **First turn off your Wifi.**
